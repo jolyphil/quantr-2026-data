@@ -41,3 +41,11 @@ This repository contains raw data on topics relevant in political sociology and 
 - Data preparation script (R): [`data_raw/bwl_btw_2025/2026-05-21_bwl_btw_2025_data_preparation.R`](data_raw/bwl_btw_2025/2026-05-21_bwl_btw_2025_data_preparation.R)
 - Clean data (RDS): [`data/bwl_btw_2025/2026-05-07_ess_11.rds`](data/bwl_btw_2025/2026-05-07_ess_11.rds)
 
+---
+
+## June 18: ISSP data aggregated at the country level and merged with World Bank and V-Dem data
+
+### Data preparation
+
+- Data preparation script (R): [`data_raw/issp/2026-06-18_issp_data_preparation.R`](data_raw/issp/2026-06-18_issp_data_preparation.R)
+- Clean data (RDS): [`data/2026-06-18_issp.rds`](data/2026-06-18_issp.rds)
