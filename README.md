@@ -39,13 +39,66 @@ This repository contains raw data on topics relevant in political sociology and 
 ### Data preparation
 
 - Data preparation script (R): [`data_raw/bwl_btw_2025/2026-05-21_bwl_btw_2025_data_preparation.R`](data_raw/bwl_btw_2025/2026-05-21_bwl_btw_2025_data_preparation.R)
-- Clean data (RDS): [`data/bwl_btw_2025/2026-05-07_ess_11.rds`](data/bwl_btw_2025/2026-05-07_ess_11.rds)
+- Clean data (RDS): [`data/bwl_btw_2025/2026-05-21_bwl.rds`](data/bwl_btw_2025/2026-05-21_bwl.rds)
 
 ---
 
 ## June 18: ISSP data aggregated at the country level and merged with World Bank and V-Dem data
 
+### Raw data
+
+**ISSP, National Identity and Citizenship Module (2023)**
+
+- Reference: ISSP Research Group (2026). International Social Survey Programme: National Identity & Citizenship - ISSP 2023 (ZA10010; Version 1.0.0) [Data set]. GESIS, Köln. https://doi.org/10.4232/5.ZA10010.1.0.0
+- License: [GESIS access Category A]()
+- Data file (Stata, DTA): Download from GESIS at https://doi.org/10.4232/5.ZA10010.1.0.0 (registration required)
+
+**Democracy indices**
+
+- Reference:
+  * Coppedge, M., Gerring, J., Knutsen, C. H., Lindberg, S. I., Teorell, J., Altman, D., Angiolillo, F., Bernhard, M., Cornell, A., Fish, M. S., Fox, L., Gastaldi, L., Gjerløw, H., Glynn, A., Good God, A., Hicken, A., Kinzelbach, K., Krusell, J., Marquardt, K. L., ... Ziblatt, D. (2026). V-Dem [Country-Year/Country-Date] Dataset (Version 16) [Data set]. _Varieties of Democracy (V-Dem) Project_. https://doi.org/10.23696/vdemds26
+  * Pemstein, D., Marquardt, K. L., Tzelgov, E., Wang, Y.-T., Medzihorsky, J., Krusell, J., Miri, F., & von Römer, J. (2026). The V-Dem measurement model: Latent variable analysis for cross-national and cross-temporal expert-coded data (11th ed., V-Dem Working Paper No. 21). _Varieties of Democracy Institute_, University of Gothenburg. https://www.v-dem.net/media/publications/wp21_2025.pdf
+- License: "open source and free for anyone to use"
+- Data file (RDS): [`data_raw/v-dem/V-Dem-CY-Core-v16.rds`](data_raw/v-dem/V-Dem-CY-Core-v16.rds)
+
+**Economic data**
+
+- Reference: World Bank. (2026). World Bank Open Data. https://data.worldbank.org/ 
+- License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)
+- Data file: Data imported using the [_worldbank_](https://m-muecke.github.io/worldbank/) R package. 
+
 ### Data preparation
 
 - Data preparation script (R): [`data_raw/issp/2026-06-18_issp_data_preparation.R`](data_raw/issp/2026-06-18_issp_data_preparation.R)
 - Clean data (RDS): [`data/2026-06-18_issp.rds`](data/2026-06-18_issp.rds)
+
+---
+
+## June 25: Voter turnout data from the International IDEA merged with World Bank and V-Dem data
+
+### Raw Data
+
+**Voter turnout data**
+
+- Reference: International IDEA. (2026). Voter Turnout Database. https://www.idea.int/data-tools/data/voter-turnout-database 
+- License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)
+- Data file (Excel): [`data_raw/idea/idea_voter_turnout_2026-06-22.xls`](data_raw/idea/idea_voter_turnout_2026-06-22.xls)
+
+**Democracy indices**
+
+- Reference:
+  * Coppedge, M., Gerring, J., Knutsen, C. H., Lindberg, S. I., Teorell, J., Altman, D., Angiolillo, F., Bernhard, M., Cornell, A., Fish, M. S., Fox, L., Gastaldi, L., Gjerløw, H., Glynn, A., Good God, A., Hicken, A., Kinzelbach, K., Krusell, J., Marquardt, K. L., ... Ziblatt, D. (2026). V-Dem [Country-Year/Country-Date] Dataset (Version 16) [Data set]. _Varieties of Democracy (V-Dem) Project_. https://doi.org/10.23696/vdemds26
+  * Pemstein, D., Marquardt, K. L., Tzelgov, E., Wang, Y.-T., Medzihorsky, J., Krusell, J., Miri, F., & von Römer, J. (2026). The V-Dem measurement model: Latent variable analysis for cross-national and cross-temporal expert-coded data (11th ed., V-Dem Working Paper No. 21). _Varieties of Democracy Institute_, University of Gothenburg. https://www.v-dem.net/media/publications/wp21_2025.pdf
+- License: "open source and free for anyone to use"
+- Data file (RDS): [`data_raw/v-dem/V-Dem-CY-Full+Others-v16.rds`](data_raw/v-dem/V-Dem-CY-Full+Others-v16.rds)
+
+**Economic data**
+
+- Reference: World Bank. (2026). World Bank Open Data. https://data.worldbank.org/ 
+- License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)
+- Data file: Data imported using the [_worldbank_](https://m-muecke.github.io/worldbank/) R package. 
+
+### Data preparation
+
+- Data preparation script (R): [`data_raw/idea/2026-06-25_idea_data_preparation.R`](data_raw/idea/2026-06-25_idea_data_preparation.R)
+- Clean data (RDS): [`data/2026-06-25_idea.rds`](data/2026-06-25_idea.rds)
