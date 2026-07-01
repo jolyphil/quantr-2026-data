@@ -102,3 +102,28 @@ This repository contains raw data on topics relevant in political sociology and 
 
 - Data preparation script (R): [`data_raw/idea/2026-06-25_idea_data_preparation.R`](data_raw/idea/2026-06-25_idea_data_preparation.R)
 - Clean data (RDS): [`data/2026-06-25_idea.rds`](data/2026-06-25_idea.rds)
+
+---
+
+## July 2 (1/2): Subset of the European Social Survey (ESS), Round 11
+
+### Raw Data
+
+- Reference: European Social Survey European Research Infrastructure (ESS ERIC). (2026). ESS11 integrated file, edition 4.1 [Data set]. Sikt - Norwegian Agency for Shared Services in Education and Research. https://doi.org/10.21338/ess11e04_1
+- License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)
+- Raw data (CSV): [`data_raw/ess_11/ESS11e04_1.csv`](data_raw/ess_11/ESS11e04_1.csv)
+- Codebook (HTML): [`data_raw/ess_11/ESS11e04_1_codebook.html`](data_raw/ess_11/ESS11e04_1_codebook.html)
+
+### Files
+
+- Clean data (RDS): [`data/2026-07-02_ess_11.rds`](data/2026-07-02_ess_11.rds)
+- Data preparation script (R): [`data_raw/ess_11/2026-07-02_ess_11_data_preparation.R`](data_raw/ess_11/2026-07-02_ess_11_data_preparation.R)
+
+---
+
+## July 2 (2/2):  German Longitudinal Election Study (GLES), Cross-Section 2025, Post-Election
+
+### Files
+
+- Clean data (RDS): [`data/2026-07-02_gles.rds`](data/2026-07-02_gles.rds)
+- Data preparation script (R): [`data_raw/gles_2025/2026-07-02_gles_2025_data_preparation.R`](data_raw/gles_2025/2026-07-02_gles_2025_data_preparation.R)
