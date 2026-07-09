@@ -123,7 +123,21 @@ This repository contains raw data on topics relevant in political sociology and 
 
 ## July 2 (2/2):  German Longitudinal Election Study (GLES), Cross-Section 2025, Post-Election
 
+### Raw data
+
+- Reference: GLES (2026). GLES Cross-Section 2025, Post-Election (ZA10100; Version 3.0.0) [Data set]. GESIS, Cologne. https://doi.org/10.4232/5.ZA10100.3.0.0 
+- License: [GESIS access Category A]()
+- Data file (Stata, DTA): Download from GESIS at https://doi.org/10.4232/5.ZA10100.3.0.0 (registration required)
+
+
 ### Files
 
 - Clean data (RDS): [`data/2026-07-02_gles.rds`](data/2026-07-02_gles.rds)
 - Data preparation script (R): [`data_raw/gles_2025/2026-07-02_gles_2025_data_preparation.R`](data_raw/gles_2025/2026-07-02_gles_2025_data_preparation.R)
+
+
+---
+
+## July 9:  Data on the German federal election 2025
+
+_Same data as on May 21_
